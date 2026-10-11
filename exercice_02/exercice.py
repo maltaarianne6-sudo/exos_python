@@ -6,7 +6,7 @@ for T in [-3, 0, 15, 31]:
     elif T < 25:
         print(T, "°C : chaud")
     else:
-        print(T, "°C : très chaud")
+        print(T, "°C : chaud")
 
 for A in [2024, 1900, 2000]:
     if A % 4 == 0 and (A % 100 != 0 or A % 400 == 0):
